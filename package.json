@@ -1,0 +1,37 @@
+{
+  "name": "routil-contentTypes",
+  "version": "0.0.1",
+  "description": "handle multiple content types",
+  "keywords": [],
+  "author": "Raynos <raynos2@gmail.com>",
+  "repository": "git://github.com/Raynos/routil-contentTypes.git",
+  "main": "index",
+  "homepage": "https://github.com/Raynos/routil-contentTypes",
+  "contributors": [
+    {
+      "name": "Jake Verbaten"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/Raynos/routil-contentTypes/issues",
+    "email": "raynos2@gmail.com"
+  },
+  "dependencies": {
+    "iterators": "~0.1.0"
+  },
+  "devDependencies": {
+    "testling": "git://github.com/Raynos/testling#master",
+    "testem": "git://github.com/Raynos/testem#master",
+    "sinon": "git://github.com/Raynos/Sinon.JS.git",
+    "tap": "0.2.5"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/Raynos/routil-contentTypes/raw/master/LICENSE"
+    }
+  ],
+  "scripts": {
+    "test": "make node-test"
+  }
+}
