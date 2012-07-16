@@ -23,7 +23,8 @@
     "testling": "git://github.com/Raynos/testling#master",
     "testem": "git://github.com/Raynos/testem#master",
     "sinon": "git://github.com/Raynos/Sinon.JS.git",
-    "tap": "0.2.5"
+    "tap": "0.2.5",
+    "test-server": "0.0.1"
   },
   "licenses": [
     {
