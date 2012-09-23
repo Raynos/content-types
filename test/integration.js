@@ -1,11 +1,11 @@
 var testServer = require("test-server")
-    , test = require("testling")
-    , routilContentTypes = require("..")
+    , test = require("tap").test
+    , ContentTypes = require("..")
 
 testServer(handleRequest, runTests)
 
 function handleRequest(req, res) {
-    routilContentTypes(req, {
+    ContentTypes(req, res, {
         "application/json": json
         , "application/x-www-form-urlencoded": form
         , "default": normal

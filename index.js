@@ -2,9 +2,10 @@ var some = require("iterators").someSync
 
 module.exports = contentTypes
 
-function contentTypes(req, object) {
+function contentTypes(req, res, object) {
     var contentType = req.headers["content-type"] || ""
 
+    // Content-Type is allowed to have parameters in it
     return some(object, findFirstMatch, contentType) || object.default
 }
 
