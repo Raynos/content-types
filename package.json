@@ -30,6 +30,6 @@
     }
   ],
   "scripts": {
-    "test": "make node-test"
+    "test": "tap --stderr --tap ./test"
   }
 }
