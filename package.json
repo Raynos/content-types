@@ -1,19 +1,19 @@
 {
-  "name": "routil-contentTypes",
+  "name": "content-types",
   "version": "0.0.1",
   "description": "handle multiple content types",
   "keywords": [],
   "author": "Raynos <raynos2@gmail.com>",
-  "repository": "git://github.com/Raynos/routil-contentTypes.git",
+  "repository": "git://github.com/Raynos/content-types.git",
   "main": "index",
-  "homepage": "https://github.com/Raynos/routil-contentTypes",
+  "homepage": "https://github.com/Raynos/content-types",
   "contributors": [
     {
       "name": "Jake Verbaten"
     }
   ],
   "bugs": {
-    "url": "https://github.com/Raynos/routil-contentTypes/issues",
+    "url": "https://github.com/Raynos/content-types/issues",
     "email": "raynos2@gmail.com"
   },
   "dependencies": {
@@ -26,7 +26,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/Raynos/routil-contentTypes/raw/master/LICENSE"
+      "url": "http://github.com/Raynos/content-types/raw/master/LICENSE"
     }
   ],
   "scripts": {

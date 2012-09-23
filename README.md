@@ -1,4 +1,4 @@
-# routil-contentTypes [![build status][1]][2]
+# content-types [![build status][1]][2]
 
 handle multiple content types
 
@@ -24,11 +24,11 @@ handle multiple content types
 
 ## Installation
 
-`npm install routil-contentTypes`
+`npm install content-types`
 
 ## Tests
 
-`make test`
+`npm test`
 
 ## Contributors
 
@@ -36,5 +36,5 @@ handle multiple content types
 
 ## MIT Licenced
 
-  [1]: https://secure.travis-ci.org/Raynos/routil-contentTypes.png
-  [2]: http://travis-ci.org/Raynos/routil-contentTypes
+  [1]: https://secure.travis-ci.org/Raynos/content-types.png
+  [2]: http://travis-ci.org/Raynos/content-types
