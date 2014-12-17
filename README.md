@@ -5,7 +5,7 @@ handle multiple content types
 ## Example
 
     var http = create("http")
-        , contentTypes = require("routil-contentTypes")
+        , contentTypes = require("content-types")
 
     http.createServer(function () {
         contentTypes(req, {
